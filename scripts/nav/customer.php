@@ -15,13 +15,10 @@
                 <a class="nav-link" href="../accountpage/layout.php">Account</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Pet</a>
+                <a class="nav-link" href="../pet/info.php">Pet</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Make Appointment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Check Appointment</a>
+                <a class="nav-link" href="../appointment/info.php">Appointment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../nav/signout.php">Sign Out</a>

@@ -1,6 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="border-top: 2px solid rgb(33 37 41);">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">
@@ -15,10 +14,7 @@
                 <a class="nav-link" href="../accountpage/layout.php">Account</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Appointment</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Record</a>
+                <a class="nav-link" href="../staffview/appointment.php">Appointment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../nav/signout.php">Sign Out</a>

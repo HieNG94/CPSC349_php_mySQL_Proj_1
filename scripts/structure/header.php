@@ -12,7 +12,7 @@
 
 <body>
     <!-- scripts -->
-    <script src="../jQuery/jquery-3.5.1.js"></script>
+    <script src="../js/jquery-3.5.1.js"></script>
     <script src="../bootstrap/bootstrap.min.js"></script>
 
     <div class="header">

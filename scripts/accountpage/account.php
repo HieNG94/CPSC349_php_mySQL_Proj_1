@@ -1,23 +1,14 @@
 <?php
 $personID = $_SESSION['personID'];
-$ln = $fn = $email = $street = $city = $st = $zip = $phone = "";
+include("init.php");
+include("edit1.php");
+include("edit2.php");
+include("edit3.php");
 
-$uName = "";
-$uNameErr = $pwErr = "";
-$flag1 = $flag2 = False;
-
-$sql = "SELECT * FROM person WHERE personID = '$personID';";
-$result = mysqli_query($conn, $sql);
-$row = mysqli_fetch_assoc($result);
-$ln = $row['lastName'];
-$fn = $row['firstName'];
-$email = $row['email'];
-$street = $row['street'];
-$city = $row['city'];
-$st = $row['state'];
-$zip = $row['zipcode'];
-$phone = $row['phone'];
-
-
-
-
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
